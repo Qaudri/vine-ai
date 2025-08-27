@@ -30,7 +30,7 @@ h1, h2, button, a {
   border: 2px solid white;
   border-radius: .5rem;
   padding: .75rem 1.5rem;
-  width: fit-content;
+  max-width: fit-content;
 }
 
 body {
