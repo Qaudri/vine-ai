@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --bg: #151515;
+  /* --bg: #151a16; */
+  --primary: #43a33f;
+  --accent: #02f6fe;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+}
+
+h1, h2, .logo {
+  font-family: "Tektur", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: white;
+}
+
+header {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 2rem 0;
+}
+
+.logo {
+  color: var(--primary);
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 700;
+
+  img {
+    width: 7rem;
+    border: 3px solid var(--primary);
+    border-radius: 50%;
+  }
+}
+
+main {
+  text-align: center;
+  img {
+    width: 100%;
+    border-radius: 2rem;
+    border: 3px solid var(--primary);
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: var(--primary);
+  }
+
+  article {
+    margin-bottom: 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  header {
+    max-width: 90vw;
+  }
+
+
+
+  .logo {
+    font-size: 3rem;
+    gap: 1.5rem;
+
+    img {
+      width: 5rem;
+    }
+  }
+
+  main {
+    img {
+      border-radius: 1rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
