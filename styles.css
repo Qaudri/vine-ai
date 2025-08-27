@@ -179,6 +179,13 @@ h2 {
   }
 }
 
+footer {
+  background: black;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
 @media screen and (max-width: 600px) {
   header, section {
     max-width: 90vw;
