@@ -21,6 +21,11 @@ h1, h2, button, a {
   font-family: "Tektur", sans-serif;
 }
 
+.whitepaper {
+  color: white;
+  font-weight: 700;
+}
+
 body {
   background: var(--bg);
   color: white;
