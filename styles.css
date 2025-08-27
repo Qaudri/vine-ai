@@ -117,6 +117,32 @@ h2 {
   }
 }
 
+.socials {
+  text-align: center;
+  margin: 4rem auto;
+  border: 3px solid var(--accent);
+  border-radius: 2rem;
+  padding: 2rem;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+
+    a {
+      background: var(--accent);
+      padding: .75rem 1.5rem;
+      border-radius: .6rem;
+      display: flex;
+      color: black;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   header, section {
@@ -162,4 +188,6 @@ h2 {
       }
     }
   }
+
+
 }
