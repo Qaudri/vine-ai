@@ -93,6 +93,9 @@ h2 {
     border-radius: 1rem;
     margin-top: 1rem;
 
+    br {
+      display: none;
+    }
     button {
       padding: .75rem 1.5rem;
       border-radius: .5rem;
@@ -147,5 +150,16 @@ h2 {
 
   .ca {
     border-radius: 1rem;
+
+    .content {
+      flex-wrap: wrap;
+      text-align: left;
+      br {
+        display: block;
+      }
+      button {
+        margin-top: 1rem;
+      }
+    }
   }
 }
