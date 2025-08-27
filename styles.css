@@ -24,6 +24,8 @@ h1, h2, button, a {
 .whitepaper {
   color: white;
   font-weight: 700;
+  display: block;
+  margin: 2rem auto;
 }
 
 body {
