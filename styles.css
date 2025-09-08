@@ -66,6 +66,18 @@ main {
 
   article {
     margin-bottom: 3rem;
+
+    .whitepaper {
+      display: inline-block;
+      margin: 2rem auto;
+      color: white;
+      background-color: var(--primary);
+      padding: 1rem 3rem;
+      border-radius: 1rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -130,6 +142,7 @@ h2 {
     justify-content: center;
     margin-top: 1rem;
     gap: 2rem;
+    /* flex-wrap: wrap; */
 
     a {
       background: var(--accent);
