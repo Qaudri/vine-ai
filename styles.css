@@ -206,6 +206,22 @@ h2 {
   }
 }
 
+.mission {
+  border: 2px solid var(--accent);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.disclaimer {
+  background: #43a33f20;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
 footer {
   background: black;
   text-align: center;
