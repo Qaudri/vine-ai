@@ -170,13 +170,22 @@ h2 {
   }
 }
 
+
 .split {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   list-style-position: inside;
   gap: 2rem;
+  margin: 5rem auto;
+   
+  img {
+    width: 100%;
+    border-radius: 2rem;
+    height: 500px;
+    object-fit: cover;
+  }
 
-  .buy {
+    .buy {
     border-radius: 2rem;
     border: 3px solid var(--primary);
     padding: 2rem;
